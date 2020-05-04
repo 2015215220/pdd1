@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OtherAddActivity.Agree2Activity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="基于Android育儿通系统的设计与实现"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/tx_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="26dp"
+                android:layout_height="27dp"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="27.5dp"
+                android:src="@drawable/customservice" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.5dp"
+                android:layout_marginTop="29dp"
+                android:gravity="left"
+
+                android:text="您的问题和建议"
+                android:textColor="#FFFFFFFF"
+                android:textSize="23.5sp" />
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/feedback"
+            android:layout_width="310dp"
+            android:layout_height="405dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/feedback"
+            android:gravity="left|top"
+            android:lines="10"
+            android:textColor="#FFF" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提交"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+</LinearLayout>

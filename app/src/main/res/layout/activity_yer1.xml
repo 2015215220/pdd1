@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OtherAddActivity.Yer1Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="基于Android育儿通系统的设计与实现"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="育儿知识"
+        android:textSize="18sp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:text="1、注孩子的发展潜力" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="8dp"
+                android:text="        幼儿教育作为基础教育，应关注孩子的可持续发展。什么样的孩子才有发展替力?热情大方，会关心同伴，这样的孩子人缘更好，以后也会有更多锻炼的机会;同时，这样的孩子求知欲强，思维很活跃，学习(行为)习惯比较好。幼儿教育就是在潜移默化中造就孩子健全美好的心灵，让孩子健康快乐地成长。" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="8dp"
+                android:text="2、要孩子做到家长道先要做到" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="8dp"
+                android:text="       孩子的教育不能光靠学校，家庭、社会都会对孩子产生响，家庭对孩子的景响更大。而且，由于孩子喜欢模仿大人，但是又不懂得选择，就把在家庭和社会中看到、听到的一切现象都模仿和表现在游戏中了，比如有的孩子会模仿大人醉酒的样子。家长无论是说话， 还是行动，实际上就已经在教孩子怎么做了。家长经常跟孩子说，对人要有礼貌，不能乱发脾气。可是家长自己说话的时候，经常大呼小叫的。孩子怎么能不受影响呢?要孩子做到，家长首先要做到。有些家长说，我们要是早知道这些就好了，可以让孩子早点养成好习惯。" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:text="3、错过幼儿期再纠正就难了" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="8dp"
+                android:text="       有人说，小孩子还不懂事，以后长大了再慢慢教。不要小看孩子，他们已经懂得很多事情了。在孩子幼小的时候，教他更容易接受。如果错过了幼儿期的教育，以后再纠正就难了。" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="8dp"
+                android:text="4、很多家长喜欢替孩子包办" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="8dp"
+                android:text="       家长们常常是口头上说很重视子女教育，但具体到小事上，就做不到。现在大部分家庭都只有一个孩子 ，所以尽里地满足孩子的需求。孩子就不懂得谦让。幼儿教育要从实实在在的小事做起，才会见实效。还有很多家长喜欢替孩子包办。家长应该多放手，让孩子得到锻炼，不能让他事事依赖。" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
